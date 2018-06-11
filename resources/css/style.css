@@ -63,3 +63,26 @@ header {
   flex-direction: column;
   align-items: flex-end;
 }
+
+/* Banner style */
+
+.banner {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Featured style */
+
+.featured {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.appify,
+.sunflower,
+.bokeh {
+  width: 30%;
+  height: auto;
+  margin: 5%;
+}
