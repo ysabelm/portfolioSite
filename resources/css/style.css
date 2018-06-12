@@ -7,6 +7,8 @@ html {
 
 body {
   background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1 {
@@ -16,7 +18,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: bolder;
   color: #2d3c49;
@@ -37,15 +39,12 @@ figcaption {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /* Header style */
 
 header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 0.75rem;
   margin-top: 0.75rem;
@@ -53,30 +52,33 @@ header {
   border-bottom: solid thick #7d97ad;
 }
 
-.header-logo {
+header img {
   width: 15%;
   height: 15%;
 }
 
 .header-presentation {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  text-align: end;
 }
 
 /* Banner style */
 
 .banner {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.banner img {
+  width: 100%;
 }
 
 /* Featured style */
 
 .featured {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
+  margin-top: 1rem;
 }
 
 .appify,
@@ -84,5 +86,14 @@ header {
 .bokeh {
   width: 30%;
   height: auto;
-  margin: 5%;
+}
+
+.featured img {
+  width: 100%;
+  height: 75%;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
 }
