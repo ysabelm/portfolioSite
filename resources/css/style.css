@@ -129,3 +129,43 @@ figcaption {
     padding-top: 0.75em;
   }
 }
+
+/* Desktop Responsive style*/
+
+@media screen and (min-width: 1440px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 2em;
+    margin-left: 0;
+  }
+  header {
+    justify-content: space-between;
+  }
+  header img {
+    width: 15%;
+    height: 15%;
+  }
+  .header-presentation {
+    text-align: end;
+  }
+  .featured {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between;
+  }
+  .appify,
+  .sunflower,
+  .bokeh {
+    width: 30%;
+    height: auto;
+  }
+}
