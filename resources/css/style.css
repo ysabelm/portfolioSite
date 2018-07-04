@@ -93,3 +93,39 @@ figcaption {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
+
+/* iPad Responsive style */
+
+@media screen and (min-width: 768px) {
+  header {
+    justify-content: space-between;
+  }
+  header img {
+    width: 25%;
+    height: 25%;
+  }
+  .header-presentation {
+    padding-top: 1rem;
+    text-align: end;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  .featured {
+    justify-content: space-around;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .appify,
+  .sunflower,
+  .bokeh {
+    width: 40%;
+    padding-top: 0.75em;
+  }
+}
