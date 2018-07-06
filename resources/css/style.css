@@ -136,16 +136,14 @@ article span {
   h3 {
     font-size: 2em;
   }
+
   .featured {
     justify-content: space-around;
-    margin-left: 0;
-    margin-right: 0;
   }
-  .appify,
-  .sunflower,
-  .bokeh {
+
+  .featured article {
     width: 40%;
-    padding-top: 0.75em;
+    margin: 0.4em 0;
   }
 }
 
