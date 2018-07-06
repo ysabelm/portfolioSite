@@ -31,6 +31,12 @@ h3 {
   margin-left: 5%;
 }
 
+p {
+  font: 100 0.75/1;
+  color: #7d97ad;
+  padding: 0.5em 0;
+}
+
 /* Header style */
 
 header {
