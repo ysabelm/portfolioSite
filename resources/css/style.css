@@ -18,14 +18,14 @@ h1 {
 
 h2 {
   font-weight: bolder;
-  font-size:  0.75em;
+  font-size: 0.75em;
   text-transform: uppercase;
   color: #2d3c49;
 }
 
 h3 {
   font-weight: 300;
-  font-size:  1.5em;
+  font-size: 1.5em;
   color: #7d97ad;
 }
 
@@ -136,11 +136,9 @@ article span {
   h3 {
     font-size: 2em;
   }
-
   .featured {
     justify-content: space-around;
   }
-
   .featured article {
     width: 40%;
     margin: 0.4em 0;
@@ -179,10 +177,7 @@ article span {
     margin-right: 0;
     justify-content: space-between;
   }
-  .appify,
-  .sunflower,
-  .bokeh {
+  .featured article {
     width: 30%;
-    height: auto;
   }
 }
