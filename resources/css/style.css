@@ -28,7 +28,6 @@ h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #7d97ad;
-  margin-left: 5%;
 }
 
 p {
@@ -78,6 +77,13 @@ header img {
   margin-top: 1em;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.featured header {
+  justify-content: flex-start;
+  border-bottom: none;
+  margin: 0.5em 0;
+  padding: 0 0;
 }
 
 .appify,
